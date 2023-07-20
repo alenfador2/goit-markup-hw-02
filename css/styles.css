@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: var(--navyblue, #2e2f42);
 }
 .filtr {
   font-weight: 500;
@@ -55,7 +56,6 @@ body {
 .contacts:hover,
 .contacts:focus {
   color: var(--ocean, #404bbf);
-  text-decoration: underline;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -66,11 +66,11 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-size: 18px;
+  color: var(--iris, #4d5ae5);
 }
 .logo:hover,
 .logo:focus {
   color: var(--iris, #4d5ae5);
-  text-decoration: underline;
 }
 .navlinks {
   font-size: 16px;
@@ -79,11 +79,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  color: var(--navyblue, #2e2f42);
 }
 .navlinks:hover,
 .navlinks:focus {
   color: var(--iris, #4d5ae5);
-  text-decoration: underline;
 }
 .description,
 .job-position,
@@ -96,6 +96,16 @@ body {
 .order {
   background-color: var(--iris, #4d5ae5);
   color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  /*letter-spacing: 0.09em;*/
+  letter-spacing: 0.64px;
+}
+.order:hover {
+  background-color: var(--ocean, #404bbf);
 }
 .third-heading {
   font-size: 20px;
@@ -118,8 +128,25 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  background-color: var(--navyblue, #2e2f42);
+  letter-spacing: 0.02em;
 }
 button {
   cursor: pointer;
+}
+.logo-part {
+  color: var(--navyblue, #2e2f42);
+}
+.logo-part:hover,
+.logo-part:focus {
+  color: var(--iris, #4d5ae5);
+}
+ul {
+  list-style: none;
+}
+.first-section {
+  background-color: var(--white, #fff);
+}
+.second-section {
+  background-color: var(--cloud, #f4f4fd);
 }
