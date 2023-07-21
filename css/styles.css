@@ -10,6 +10,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--navyblue, #2e2f42);
+  font-weight: 400;
 }
 .credo {
   color: var(--cloud, #f4f4fd);
@@ -30,6 +31,7 @@ body {
   border-radius: 4px;
   border: 1px solid var(--cornflover, #e7e9fc);
   text-align: center;
+  font-family: inherit;
 }
 .filtr:hover,
 .filtr:focus {
@@ -85,6 +87,9 @@ body {
 .navlinks:focus {
   color: var(--iris, #4d5ae5);
 }
+.main-links {
+  text-decoration: none;
+}
 .description,
 .job-position,
 .section1 {
@@ -113,6 +118,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  /*hejka, w Figmie mamy headery nych kart wpisane jako Header 3 czy musimy to zmienić?*/
+  color: var(--navyblue, #2e2f42);
 }
 .second-heading {
   font-size: 36px;
@@ -128,7 +135,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  background-color: var(--navyblue, #2e2f42);
   letter-spacing: 0.02em;
 }
 button {
@@ -137,16 +143,36 @@ button {
 .logo-part {
   color: var(--navyblue, #2e2f42);
 }
+.logo-down {
+  color: var(--cloud, #f4f4fd);
+}
 .logo-part:hover,
-.logo-part:focus {
+.logo-part:focus,
+.logo-down:hover,
+.logo-down:focus {
   color: var(--iris, #4d5ae5);
 }
 ul {
   list-style: none;
 }
 .first-section {
-  background-color: var(--white, #fff);
+  background-color: var(--navyblue, #2e2f42);
 }
 .second-section {
+  background-color: var(--white, #fff);
+}
+.third-section {
   background-color: var(--cloud, #f4f4fd);
+}
+.down {
+  background-color: var(--navyblue, #2e2f42);
+}
+.paragrafs {
+  color: var(--slate, #434455);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
